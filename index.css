@@ -1,0 +1,452 @@
+	@charset "utf-8";
+	/* CSS Document */
+	
+	body{
+		padding: 0px;
+		margin: 0px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+/*-------------slider---------------*/
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:100%;
+  margin: auto;
+
+
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+position:absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+	left:0;
+	  border-radius: 3px 0 0 3px;}
+	
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*-------------slider---------------*/
+	#nav{
+		width:100%;
+		height:100px;
+		position:absolute;
+		background-color:transparent;
+		top:0px;
+	}
+	#boxy{
+	position:absolute;
+	width:104px;
+	height:74px;
+	margin-top:26px;
+	float:left;
+	margin-left:40px;
+	background-color:rgba(61,208,201,1.00);
+    }
+	
+	.search{
+		position:absolute;
+		float:left;
+		top:52px;
+		margin-left:520px;
+		
+	}
+	.searchic{
+		position:absolute;
+		top:40px;
+		float: left;
+		margin-left:720px;
+	}
+	
+	#nav ul li{
+		display:inline-block;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		position:relative;
+		float:left;
+		padding:22px;
+		top:10px;
+	}
+	#nav ul li a{
+		color:#FFF;
+		text-decoration:none;
+		font-weight:500;
+		font-size:22px;
+	}
+	#nav ul li:hover{
+		background-color:rgba(49,106,120,1.00) ;
+	}
+	.tag{
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		position: absolute;
+		width: 300px;
+		height: 40px;
+		font-weight:500;
+		top: 200px;
+		margin-left: 120px;
+	}
+	h1{
+		font-size:30px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color:#F0EAEA;
+	}
+	h2{
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:14px;
+		margin-top:80px;
+		color:rgba(255,255,255,1.00);
+		
+	}
+	.logo{
+		position:relative;
+		float:right;
+		margin-right:20px;
+		margin-top:4px;
+	}
+	.fblogo{
+		
+		position:absolute;
+		width:50px;
+		height:50px;
+		top: 310px;
+		left: 22px;
+	
+	}
+	.twitlogo{
+		
+		position:absolute;
+		width:50px;
+		height:50px;
+		top: 390px;
+		left: 22px;
+	
+	}
+	.feedlogo {
+		
+		position:absolute;
+		width:50px;
+		height:50px;
+		top:475px;
+		left: 22px;
+			  
+	}
+	.line{
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		width:430px;
+		top: 15px;
+		left: 30px;
+		height: 40px;
+		color:rgba(253,253,253,1.00);
+		font-size:16px;
+		font-weight: 600;
+		position:absolute;
+	}
+	.cam{
+		position: absolute;
+		top: 670px;
+		margin-left:24px;
+		float:left;
+	}
+	.cam2{
+		position:absolute;
+		top: 740px;
+		margin-left:24px;
+		float:left;
+	}
+	.tag2{
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size: 16px;
+		top: 750px;
+		color:rgba(255,255,255,1.00);
+		font-weight:600;
+		position: absolute;
+		left:125px;
+	}
+	.container{
+		padding:0px;
+		width:100%;
+		overflow:auto;
+	}
+	.lenspic{
+		position:relative;
+		float:left;
+		margin-left:10px;
+		margin-top:70px;
+	}
+	.welcometag{
+		position:relative;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:56px;
+		margin-left:460px;
+		margin-top:160px;
+	}
+	.divider{
+		position:relative;
+		float:none;
+		margin-top:100px;
+		width:20px;
+		margin-right:80px;
+		height:220px;
+		background-color:rgba(219,60,124,1.00);
+	}
+	.tag4{
+		position:relative;
+		font-size:16px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		float:right;
+		color:rgba(0,0,0,1.00);
+		text-align:justify;
+		padding-right:0px;
+		padding-right:180px;
+		margin-top:100px;
+		
+		
+		
+	}
+	.container4{
+		width:100%;
+		margin:0px;
+		padding:0px;
+		overflow:auto;
+		margin-top:60px;
+	}
+	.shtag1{
+		position:relative;
+		float:left;
+		padding-left:40px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:34px;
+		font-weight:500;
+		
+		
+	
+	}
+	.shtag2{
+		position:relative;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color:rgba(0,0,0,1.00);
+		font-size:34px;
+		float:right;
+	
+		margin-right:25px;
+		font-weight:500;
+		padding-right:40px;
+		
+	}
+	.shtag3{
+		position:relative;
+		width:400px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color:rgba(0,0,0,1.00);
+		font-size:34px;
+		
+		font-weight:500;
+		left:10px;
+	}
+	.studiotag{
+		position:relative;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:16px;
+		float:left;
+		text-align:justify;
+		padding-left:40px;
+		font-weight:400;
+		color:rgba(0,0,0,1.00);
+		margin-top:30px;
+	}
+	.advertisingtag{
+		position:relative;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:16px;
+		float:right;
+		text-align:justify;
+		padding-right:40px;
+		margin-top:30px;
+		margin-right:0px;
+		
+		font-weight:400;
+		color:rgba(0,0,0,1.00);
+	}
+	.commercialtag{
+		position:relative;
+		width:500px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:16px;
+		float:none;
+		top:30px;
+		font-weight:400;
+		color:rgba(0,0,0,1.00);
+		left:10px;
+	}
+	.container2{
+		padding:0px;
+		margin:0px;
+		width:100%;
+		height:150px;
+		margin-top:100px;
+	
+	}
+	.divider2{
+		position:relative;
+		height:240px;
+		width:100%;
+		background-color:rgba(30,92,102,1.00);
+		top:20px;
+	}
+	.divtag{
+		position:absolute;
+		float:left;
+		margin-left:20px;
+		margin-top:54px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:60px;
+		color:rgba(236,225,197,1.00);
+		
+	}
+	.border{
+		position:relative;
+		width:120px;
+		height:60px;
+		background-color:rgba(155,93,45,1.00);
+		float:right;
+		margin-right:60px;
+		margin-top:70px;
+	}
+	.viewtag{
+		position:relative;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:16px;
+		color:rgba(255,255,255,1.00);
+		width:100%;
+		top:16px;
+	}
+	.viewtag a{
+		color:#FFF;
+		text-decoration:none;
+		font-weight:400;
+		font-size:16px;
+	}
+	.footer{
+		position:absolute;
+		width:100%;
+		height:400px;
+		background:url(images/hubble_friday_01212016.jpg);
+		background-size:cover;
+		margin-top:390px;
+	}
+	.footertag{
+		position:absolute;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:36px;
+		color:rgba(255,255,255,1.00);
+		float:left;
+		margin-left:165px;
+		font-weight:600;
+		margin-top:140px;
+	}
+	.ftag2{
+		position:absolute;
+		font-size:14px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color:rgba(255,255,255,1.00);
+		text-align:justify;
+		float:left;
+		margin-top:200px;
+		font-weight:400;
+		margin-left:100px;
+	}
+	.container3{
+		padding:0px;
+		margin:0px;
+		width:100%;
+	}
+	.fblogo2{
+		position:relative;
+		float:right;
+		padding:30px;
+		 top:260px;
+		
+	}
+	.twitlogo2{
+		position:relative;
+		float:right;
+		padding:30px;
+		top:260px;
+	}
+	.feedlogo2{
+		position:relative;
+		float:right;
+		padding:30px;
+		top:260px;
+	}
+	.tagfinal{
+		position:relative;
+		float:right;
+		font-size:16px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color:rgba(255,255,255,1.00);
+		margin-top:370px;
+		right:260px;
+	}

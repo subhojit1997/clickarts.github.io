@@ -1,0 +1,528 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0px;
+	margin:0px;
+}
+#mpic{
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+#tag{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	position: absolute;
+	width: 300px;
+	height: 40px;
+	font-size: 30px;
+	color:#F0EAEA;
+	font-weight:500;
+	top: 195px;
+	left: 80px;
+	float:right;
+}
+#nav{
+	width:100%;
+	height:100px;
+	position:absolute;
+	background-color:transparent;
+	top:0px;
+}
+#box{
+	position:absolute;
+	width:152px;
+	height:73px;
+	background-color:rgba(61,208,201,1.00);
+	top:27px;
+	float:left;
+	margin-left:396px;
+}
+#nav ul li{
+	display:inline-block;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	position:relative;
+	float:left;
+	margin-left:12px;
+	padding:22px;
+	top:10px;
+}
+#nav ul li a{
+	color:#FFF;
+	text-decoration:none;
+	font-weight:500;
+	font-size:22px;
+}
+#nav ul li:hover{
+	background-color:rgba(49,106,120,1.00) ;
+}
+.search{
+	position:absolute;
+	float:left;
+	top:54px;
+	margin-left:570px;
+	
+}
+.searchic{
+	position:absolute;
+	top:43px;
+	float: left;
+	margin-left:759px;
+}
+#logo{
+	position:relative;
+	float:right;
+	margin-right:20px;
+	top:5px;
+
+}
+#fblogo{
+	position:absolute;
+	width:50px;
+	height:50px;
+	top: 310px;
+	left: 22px;
+
+}
+#twitlogo{
+	position:absolute;
+	width:50px;
+	height:50px;
+	top: 390px;
+	left: 22px;
+
+}
+#feedlogo {
+	position:absolute;
+	width:50px;
+	height:50px;
+	top:475px;
+	left: 22px;
+          
+}
+
+#gittag{
+	padding:0px;
+	width:100%;
+	margin:0px;
+	overflow:auto;
+}
+h1{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:10px;
+	float:left;
+	margin-left:240px;
+	position:absolute;
+	margin-top:20px;
+	
+	color:rgba(255,0,4,1.00);
+	
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:28px;
+}
+
+h2{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+	position:absolute;
+	color:rgba(0,0,0,1.00);
+	float:left;
+	margin-left:70px;
+	
+	
+	font-size:16px;
+	margin-top:100px;
+}
+#fname{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	color:rgba(26,26,26,1.00);
+	float:left;
+	margin-left:40px;
+	margin-top:300px;
+	
+}
+#lname{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	color:rgba(26,26,26,1.00);
+	float:left;
+	margin-left:405px;
+	margin-top:300px;
+	
+}
+#email{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:26px;
+	color:rgba(0,0,0,1.00);
+	margin-top:450px;
+	position:absolute;
+	float:left;
+	margin-left:40px;
+}
+
+
+
+#border{
+	width:600px;
+	height:800px;
+	background-color:rgba(60,94,112,1.00);
+	float:right;
+}
+#socialtag{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:26px;
+	color:rgba(255,255,255,1.00);
+	float:left;
+	padding:10px;
+	margin-top:10px;
+}
+#line1{
+	position:absolute;
+	width:500px;
+	height:4px;
+	background-color:rgba(0,0,0,1.00);
+	margin-top:62px;
+	float:left;
+	margin-left:8px;
+}
+#fblogo2{
+	position:absolute;
+	float:left;
+	margin-top:80px;
+	margin-left:10px;
+}
+#twitlogo2{
+	position:absolute;
+	float:left;
+	margin-top:80px;
+	margin-left:80px;
+}
+#phtag{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:26px;
+	color:rgba(255,255,255,1.00);
+	float:left;
+	padding:10px;
+	margin-top:150px;
+}
+#line2{
+	position:absolute;
+	width:500px;
+	height:4px;
+	background-color:rgba(0,0,0,1.00);
+	margin-top:205px;
+	float:left;
+	margin-left:8px;
+}
+#fblogo3{
+	position:absolute;
+	float:left;
+	margin-top:230px;
+	margin-left:10px;
+}
+#emtag{
+    position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:26px;
+	color:rgba(255,255,255,1.00);
+	float:left;
+	padding:10px;
+	margin-top:310px;	
+}
+#line3{
+	position:absolute;
+	width:500px;
+	height:4px;
+	background-color:rgba(0,0,0,1.00);
+	margin-top:360px;
+	float:left;
+	margin-left:8px;
+}
+#num{
+	float:right;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:26px;
+	color:rgba(255,255,255,1.00);
+	margin-top:240px;
+	width:100%;
+	margin-right:50px;
+	height:60px;
+	
+}
+#eid{
+	float:right;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:26px;
+	color:rgba(255,255,255,1.00);
+	margin-top:100px;
+	width:100%;
+	margin-right:40px;
+	height:60px;
+	
+}
+#loc{
+	float:right;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:26px;
+	color:rgba(255,255,255,1.00);
+	margin-top:100px;
+	width:100%;
+	margin-right:25px;
+	height:60px;
+	
+}
+#emlogo{
+	position:absolute;
+	float:left;
+	margin-top:395px;
+	margin-left:10px;
+}
+#addtag{
+    position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:26px;
+	color:rgba(255,255,255,1.00);
+	float:left;
+	padding:10px;
+	margin-top:470px;	
+}
+#line4{
+	position:absolute;
+	width:500px;
+	height:4px;
+	background-color:rgba(0,0,0,1.00);
+	margin-top:520px;
+	float:left;
+	margin-left:8px;
+}
+#addlogo{
+	position:absolute;
+	float:left;
+	margin-top:550px;
+	margin-left:10px;
+}
+#map{
+	position:absolute;
+	float:left;
+	width:600px;
+	height:300px;
+	background-color:rgba(227,86,88,1.00);
+	margin-top:650px;
+}
+.footer{
+		position:absolute;
+		width:100%;
+		height:400px;
+		background:url(images/hubble_friday_01212016.jpg);
+		background-size:cover;
+		margin-top:950px;
+	}
+	.footertag{
+		position:absolute;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:36px;
+		color:rgba(255,255,255,1.00);
+		float:left;
+		margin-left:165px;
+		font-weight:600;
+		margin-top:140px;
+	}
+	.ftag2{
+		position:absolute;
+		font-size:14px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color:rgba(255,255,255,1.00);
+		text-align:justify;
+		float:left;
+		margin-top:200px;
+		font-weight:400;
+		margin-left:100px;
+	}
+	.container3{
+		padding:0px;
+		margin:0px;
+		width:100%;
+	}
+	.fblogo2{
+		position:relative;
+		float:right;
+		padding:30px;
+		 top:260px;
+		
+	}
+	.twitlogo2{
+		position:relative;
+		float:right;
+		padding:30px;
+		top:260px;
+	}
+	.feedlogo2{
+		position:relative;
+		float:right;
+		padding:30px;
+		top:260px;
+	}
+	.tagfinal{
+		position:relative;
+		float:right;
+		font-size:16px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		color:rgba(255,255,255,1.00);
+		margin-top:370px;
+		right:260px;
+	}
+	
+	#ft{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	float:left;
+	margin-left:10px;
+	color:rgba(26,26,26,1.00);
+	margin-left:400px;
+
+	margin-top:300px;
+	}
+	
+	
+	#lt{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	float:left;
+	margin-left:40px;
+	color:rgba(26,26,26,1.00);
+	
+	}
+	.in_1{
+	position:absolute;
+	line-height:50px;
+	background-color:rgba(206,206,206,0.79);
+	border:inset;
+	margin-top:50px;
+	}
+	.in_2{
+	position:absolute;
+	line-height:50px;
+	background-color:rgba(206,206,206,0.79);
+	border:inset;
+	margin-top:350px;
+	
+	}
+	#add
+	{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	color:rgba(26,26,26,1.00);
+	float:left;
+	margin-top:450px;
+	position:absolute;
+	float:left;
+	margin-left:405px;
+	}
+	.in_3{
+	position:absolute;
+	line-height:50px;
+	background-color:rgba(206,206,206,0.79);
+	border:inset;
+	margin-top:500px;
+	margin-left:-298px;
+	}
+	.in_4{
+	position:absolute;
+	line-height:50px;
+	background-color:rgba(206,206,206,0.79);
+	border:inset;
+	float:left;
+	margin-left:-558px;
+	margin-top:500px;
+	
+	}
+	#adrs
+	{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	color:rgba(26,26,26,1.00);
+	float:left;
+	margin-left:40px;
+	margin-top:600px;	
+	}
+	#et{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	color:rgba(26,26,26,1.00);
+	float:left;
+	margin-left:700px;
+	
+	}
+	
+	
+	#pt{
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	color:rgba(26,26,26,1.00);
+	float:left;
+	margin-left:600px;
+	
+	}
+	
+	.at
+	{
+	
+	position:absolute;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	color:rgba(26,26,26,1.00);
+	float:left;
+	margin-left:-250px;
+	
+	}
+	
+	.in_5{
+	position:absolute;
+	line-height:200px;
+	background-color:rgba(206,206,206,0.79);
+	border:inset;
+	float:left;
+	margin-top:15px;
+	margin-left:-66px;
+	}
+	.bt
+	{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	}
+	.in_6{
+		position:absolute;
+		width:100px;
+		height:80px;
+		font-size:20px;
+		float:left;
+		margin-top:230px;
+		color:rgba(241,241,241,1.00);
+		margin-left:-40px;
+		background-color:rgba(49,106,123,1.00);
+	}
+	
+	#container5{
+		padding:0px;
+		margin:0px;
+		overflow:auto;
+	}
+	#container6{
+		padding:0px;
+		margin:0px;
+		overflow:auto;
+	}
+	#container7{
+		padding:0px;
+		margin:0px;
+		overflow:auto;
+	}
